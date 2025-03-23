@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { useAuth } from "../contexts/AuthContext";
 import { User } from "../types/types";
-import { colors, spacing, typography, borderRadius, shadows } from "../styles/theme";
+import { colors, spacing, typography } from "../styles/theme";
 import Button from "../components/Button";
 import Card from "../components/Card";
 

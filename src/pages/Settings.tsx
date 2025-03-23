@@ -1,12 +1,12 @@
-import React, { useState } from "react";
-import { useAuth } from "../contexts/AuthContext";
+// import React, { useState } from "react";
+// import { useAuth } from "../contexts/AuthContext";
 import Navbar from "../components/Navbar";
 import Card from "../components/Card";
 import Button from "../components/Button";
-import { colors, spacing, typography, borderRadius } from "../styles/theme";
+// import { colors, spacing, typography, borderRadius } from "../styles/theme";
 
 const Settings: React.FC = () => {
-  const { currentUser } = useAuth();
+  // const { currentUser } = useAuth();
   
 
   // CSS classes for the switch component
@@ -31,7 +31,7 @@ const Settings: React.FC = () => {
       left: 0;
       right: 0;
       bottom: 0;
-      background-color: ${colors.gray};
+      background-color: #e6e6e6;
       border-radius: 34px;
       transition: 0.4s;
     }
@@ -43,13 +43,13 @@ const Settings: React.FC = () => {
       width: 26px;
       left: 4px;
       bottom: 4px;
-      background-color: ${colors.white};
+      background-color: #fff;
       border-radius: 50%;
       transition: 0.4s;
     }
     
     input:checked + .slider {
-      background-color: ${colors.admin};
+      background-color: orange;
     }
     
     input:checked + .slider:before {

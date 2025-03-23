@@ -2,7 +2,7 @@ import React from "react";
 import { useAuth } from "../contexts/AuthContext";
 import Navbar from "../components/Navbar";
 import Card from "../components/Card";
-import Button from "../components/Button";
+// import Button from "../components/Button";
 import { colors, spacing, typography, borderRadius, shadows } from "../styles/theme";
 
 const Profile: React.FC = () => {
@@ -17,14 +17,14 @@ const Profile: React.FC = () => {
     }
   };
 
-  const getRoleLightColor = () => {
-    switch (currentUser?.role) {
-      case "Admin": return colors.adminLight;
-      case "Editor": return colors.editorLight;
-      case "Viewer": return colors.viewerLight;
-      default: return colors.grayLight;
-    }
-  };
+  // const getRoleLightColor = () => {
+  //   switch (currentUser?.role) {
+  //     case "Admin": return colors.adminLight;
+  //     case "Editor": return colors.editorLight;
+  //     case "Viewer": return colors.viewerLight;
+  //     default: return colors.grayLight;
+  //   }
+  // };
 
   return (
     <div>

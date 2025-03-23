@@ -3,8 +3,8 @@ import React from "react";
 import { useAuth } from "../contexts/AuthContext";
 import Navbar from "../components/Navbar";
 import Card from "../components/Card";
-import Button from "../components/Button";
-import { colors, spacing, typography } from "../styles/theme";
+// import Button from "../components/Button";
+// import { colors, spacing, typography } from "../styles/theme";
 
 const AdminDashboard: React.FC = () => {
   const { currentUser } = useAuth();
@@ -52,7 +52,7 @@ const Dashboard: React.FC = () => {
       <div style={{ 
         maxWidth: "1200px",
         margin: "0 auto",
-        padding: `${spacing.xl} ${spacing.lg}`,
+        padding: `30px`,
       }}>
         {/* <h1 style={{ 
           fontSize: typography.fontSizes.xxl,
